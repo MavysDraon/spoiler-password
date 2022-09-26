@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+::selection {
+  background-color: #4400ff;
+  color: white;
+}
+
+#pass {
+  border-radius: 20px;
+  display: flex;
+  height: 20px;
+  width: 80px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+}
+
+#mail {
+  border-radius: 20px;
+  display: flex;
+  height: 20px;
+  width: 150px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+}
+
+.submit {
+  background-color: grey;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  height: 30px;
+  width: 100px;
+  bottom: 50px;
+  left: 140px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-mailbox {
+  color: black;
+  display: flex;
+  position: relative;
+  font-size: 1.5rem;
+  bottom: 40px;
+  left: 120px;
+}
+
+.fa-key {
+  color: black;
+  display: flex;
+  position: relative;
+  font-size: 1.5rem;
+  bottom: 40px;
+  left: 120px;
+}
